@@ -1,0 +1,8 @@
+<article *ngIf="(show$ | async) as show">
+    <img src="{{show.image}}" alt="Photo of {{show.name}}">
+    <article>
+      <h1>{{ show.name }}</h1>
+      <h2>{{ show.description }}</h2>
+      <p>{{ show.bpm }}</p>
+    </article>
+  </article>

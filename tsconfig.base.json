@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@hanga/h-assets": ["libs/h-assets/src/index.ts"],
+      "@hanga/h-style": ["libs/h-style/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
